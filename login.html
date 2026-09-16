@@ -6,6 +6,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--fonts from google!-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;" rel="stylesheet">
     <!-- asking google to connect playfair display (for headings), pooppins (normal UI text) for website !-->
-    
   </head>
+
+  <body>
+    <div id="login-container">
+        <h2> Welcome to Pixel Palette </h2>
+        <h5> Where ideas come to life </h5>
+
+        <form id="login-form">
+          <input type="email" id="loginemail" placeholder="Enter your email"/>
+          <input type="password" id="loginpassword" placeholder="Enter your password"/>
+
+          <button id="loginbutton" type="submit"> Login </button>
+          <hr>
+          <div>
+           <a href="forgot password mail link"> Forgot Password? </a>
+          </div>
+          <h4> Or continue using </h4>
+          <div>
+           <button type="button" id="googlelogin"> Google </button>
+           <button type="button" id="gitlogin"> GitHub </button>
+          </div>
+        </form>
+    </div>
+  </body>
 </html>
